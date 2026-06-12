@@ -132,6 +132,43 @@ Kaggle, 2020. https://www.kaggle.com/c/m5-forecasting-uncertainty
 
 ---
 
+## Data Download
+
+The two datasets are **not stored in this repository** (files exceed GitHub's 100 MB limit). Download them from their official sources before running the app.
+
+### SupplyGraph — already included
+The SupplyGraph raw CSVs are small and are included in the repo under `data/supplygraph/` and `SupplyGraph/`. No download needed.
+
+### M5 Forecasting — download from Kaggle
+
+1. Go to the Kaggle competition page:  
+   **https://www.kaggle.com/competitions/m5-forecasting-accuracy/data**
+
+2. Sign in to Kaggle (free account) and accept the competition rules.
+
+3. Download these three files:
+
+   | File | Size | Used for |
+   |---|---|---|
+   | `sell_prices.csv` | 194 MB | Unit price enrichment |
+   | `calendar.csv` | 0.1 MB | SNAP flags & calendar signals |
+   | `sales_train_validation.csv` | 114 MB | Available but not used in pipeline |
+
+   > `calendar.csv` is already included in the repo. You only **need** to download `sell_prices.csv`. The pipeline runs fine without `sales_train_validation.csv`.
+
+4. Place the downloaded files here:
+   ```
+   data/
+   └── m5/
+       ├── calendar.csv              ← already in repo
+       ├── sell_prices.csv           ← download from Kaggle
+       └── sales_train_validation.csv  ← optional
+   ```
+
+> **No Kaggle account?** The pipeline includes an automatic synthetic data fallback. If `sell_prices.csv` is missing, unit prices are generated deterministically — all KPIs remain valid for demonstration purposes.
+
+---
+
 ## Installation
 
 ### 1. Clone the repository
