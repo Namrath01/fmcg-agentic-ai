@@ -1,0 +1,68 @@
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Data files (large — commit only structure)
+# M5 folder — raw Kaggle downloads, too large for GitHub (100 MB limit)
+M5/sell_prices.csv
+M5/sales_train_validation.csv
+M5/sales_train_evaluation.csv
+M5/sample_submission.csv
+# data/ folder large files
+data/sell_prices.csv
+data/sales_train_validation.csv
+data/sales_train_evaluation.csv
+data/m5/sales_train_validation.csv
+data/m5/sales_train_evaluation.csv
+data/m5/sell_prices.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit cache
+.streamlit/
+
+# Model artifacts
+*.pkl
+*.joblib
+models/
+
+# Generated pipeline outputs (regenerated on each app run)
+outputs/*.csv
+outputs/*.pkl
+outputs/*.joblib
+
+# Logs
+*.log
