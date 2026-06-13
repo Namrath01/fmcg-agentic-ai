@@ -63,5 +63,16 @@ models/
 outputs/*.pkl
 outputs/*.joblib
 
+# SupplyGraph dataset author code (not this project's code)
+SupplyGraph/Code/
+
+# Duplicate M5 calendar (canonical copy is data/m5/calendar.csv)
+M5/calendar.csv
+
+# Screenshots (local use only)
+screenshots/
+take_screenshots.py
+strip_nb_images.py
+
 # Logs
 *.log
