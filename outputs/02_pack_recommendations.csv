@@ -1,0 +1,42 @@
+﻿SkuId,ProductGroup,SubGroup,PlantId,StorageLocationId,VelocityClass,PackConfig,PackDescription,PackMultiplier,RecommendedPackQty,JustificationScore,HistMeanDailyDemand,ForecastMeanDailyDemand,DemandCV,EstInventoryReductionPct,CostFactor,AvgPlantCapacity,CapacityFeasible
+AT5X5K,A,AT,1921.0,2130.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,976,6.5,806.6,2440.2,1.161,23.0,1.0,1363.460485500441,True
+ATN01K24P,A,ATN,1920.0,2030.0,fast_mover,Bulk Logistics Case,High-volume bulk case pack for continuous replenishment,24,3379,25.9,2893.1,4223.7,0.932,30.0,0.85,1589.1279088558501,False
+ATN02K12P,A,ATN,1911.0,1130.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,528,5.3,619.9,1320.2,0.991,23.0,1.0,599.1412906118788,True
+ATPA1K24P,A,ATPA,1911.0,1130.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,117,0.0,0.1,584.9,14.866,15.0,1.1,599.1412906118788,True
+ATPPCH5X5K,A,ATPPCH,1920.0,2030.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,13,0.0,0.0,63.7,14.866,15.0,1.1,1589.1279088558501,True
+ATWWP001K24P,A,ATWWP,1920.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,25,0.3,41.7,62.9,1.25,23.0,1.0,1589.1279088558501,True
+ATWWP002K12P,A,ATWWP,1920.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,38,0.1,16.9,95.1,2.312,23.0,1.0,1589.1279088558501,True
+EEA200G24P,E,EEA,2120.0,2030.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,12,0.0,0.0,58.6,14.849,15.0,1.1,3808.8594300314,True
+EEA500G12P,E,EEA,2120.0,2030.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,12,0.0,0.5,59.1,10.079,15.0,1.1,3808.8594300314,True
+MAC1K25P,M,MAC,1915.0,1530.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,16,0.0,4.0,41.0,3.714,23.0,1.0,1650.6549202431556,True
+MAHS025K,M,MAHS,1919.0,1930.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,20,0.2,26.6,49.0,1.996,23.0,1.0,1622.8033795248869,True
+MAP1K25P,M,MAP,1911.0,1130.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,11,0.0,2.7,53.1,11.378,15.0,1.1,599.1412906118788,True
+MAPA1K24P,M,MAPA,1915.0,1530.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,45,0.0,0.0,225.2,14.866,15.0,1.1,1650.6549202431556,True
+MAR01K24P,M,MAR,1911.0,1130.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,442,11.0,696.3,1106.2,0.863,23.0,1.0,599.1412906118788,True
+MAR02K12P,M,MAR,1911.0,1130.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,122,1.0,119.6,305.2,1.265,23.0,1.0,599.1412906118788,True
+MASR025K,M,MASR,1914.0,1430.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,65,0.8,104.0,163.6,1.516,23.0,1.0,1541.158173076923,True
+POP001L12P,P,POP,2120.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,394,5.9,740.1,985.1,1.685,23.0,1.0,3808.8594300314,True
+POP001L12P.1,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,393,6.9,530.1,983.0,0.934,23.0,1.0,532.1674208144797,True
+POP002L09P,P,POP,2120.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,109,1.3,166.7,273.5,1.007,23.0,1.0,3808.8594300314,True
+POP005L04P,P,POP,2121.0,2130.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,53,0.6,71.5,132.2,1.221,23.0,1.0,3960.19685248338,True
+POP015K,P,POP,2120.0,2030.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,27,0.0,0.0,134.7,14.866,15.0,1.1,3808.8594300314,True
+POP500M24P,P,POP,2120.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,131,4.5,295.8,328.1,0.946,23.0,1.0,3808.8594300314,True
+POPF01L12P,P,POPF,2121.0,2130.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,86,1.4,181.2,213.8,1.467,23.0,1.0,3960.19685248338,True
+POV001L24P,P,POV,2120.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,707,14.3,1604.4,1766.5,0.964,23.0,1.0,3808.8594300314,True
+POV002L09P,P,POV,2120.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,350,4.4,549.2,874.9,1.024,23.0,1.0,3808.8594300314,True
+POV005L04P,P,POV,2116.0,1630.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,206,2.4,304.8,514.1,1.034,23.0,1.0,4156.247906395623,True
+POV500M24P,P,POV,2120.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,354,9.2,903.2,884.0,0.951,23.0,1.0,3808.8594300314,True
+SE200G24P,S,SE,1920.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,94,0.5,58.0,235.5,1.198,23.0,1.0,1589.1279088558501,True
+SE500G24P,S,SE,1911.0,1130.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,384,8.2,681.9,960.0,0.931,23.0,1.0,599.1412906118788,True
+SO0001L12P,S,SO,2119.0,1930.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,67,0.0,0.2,333.6,9.302,15.0,1.1,3645.814908430282,True
+SO0002L09P,S,SO,2119.0,1930.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,43,0.0,0.2,213.3,8.03,15.0,1.1,3645.814908430282,True
+SO0005L04P,S,SO,2119.0,1930.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,28,0.0,0.0,142.0,12.623,15.0,1.1,3645.814908430282,True
+SO0500M24P,S,SO,2114.0,1430.0,slow_mover,Promotional Multipack,Promotional bundle to accelerate slow-moving inventory,6,28,0.0,0.0,142.1,14.866,15.0,1.1,4129.810169891458,True
+SOP001L12P,S,SOP,2121.0,2130.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,59,0.7,92.1,147.9,1.412,23.0,1.0,3960.19685248338,True
+SOS001L12P,S,SOS,2120.0,2030.0,fast_mover,Bulk Logistics Case,High-volume bulk case pack for continuous replenishment,24,4159,65.3,7497.4,5198.5,0.867,30.0,0.85,3808.8594300314,False
+SOS002L09P,S,SOS,2120.0,2030.0,fast_mover,Bulk Logistics Case,High-volume bulk case pack for continuous replenishment,24,3190,41.1,4724.3,3987.3,0.918,30.0,0.85,3808.8594300314,True
+SOS003L04P,S,SOS,2121.0,2130.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,774,12.9,1014.3,1934.8,0.882,23.0,1.0,3960.19685248338,True
+SOS005L04P,S,SOS,2120.0,2030.0,fast_mover,Bulk Logistics Case,High-volume bulk case pack for continuous replenishment,24,2711,59.7,6886.2,3388.9,0.885,30.0,0.85,3808.8594300314,True
+SOS008L02P,S,SOS,2120.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,1356,3.2,399.4,3388.9,1.209,23.0,1.0,3808.8594300314,True
+SOS250M48P,S,SOS,2120.0,2030.0,medium_mover,Standard Consumer Pack,Standard shelf-ready pack for regular distribution,12,1356,1.7,216.3,3388.9,1.079,23.0,1.0,3808.8594300314,True
+SOS500M24P,S,SOS,2111.0,1130.0,fast_mover,Bulk Logistics Case,High-volume bulk case pack for continuous replenishment,24,2711,27.6,2832.8,3388.9,0.876,30.0,0.85,5092.13018445303,True

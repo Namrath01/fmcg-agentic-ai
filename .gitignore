@@ -59,8 +59,7 @@ desktop.ini
 *.joblib
 models/
 
-# Generated pipeline outputs (regenerated on each app run)
-outputs/*.csv
+# Generated pipeline outputs — CSVs and charts are committed; model binary is not
 outputs/*.pkl
 outputs/*.joblib
 

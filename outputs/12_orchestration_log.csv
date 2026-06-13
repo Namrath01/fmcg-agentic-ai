@@ -1,0 +1,31 @@
+﻿Log
+[03:22:15.252] [Orchestrator] ------------------------------------------------------------
+[03:22:15.252] [Orchestrator]   ENTERPRISE AGENTIC SUPPLY CHAIN OPTIMIZER
+[03:22:15.252] [Orchestrator] ------------------------------------------------------------
+[03:22:15.252] [Orchestrator] Orchestration pipeline starting ...
+[03:22:15.252] [Orchestrator] Loading datasets (SupplyGraph + M5) ...
+"[03:22:18.452] [Orchestrator] Data loaded - 1,489,319 rows, 41 SKUs, 26 plants"
+[03:22:18.452] [Orchestrator] ------------------------------------------------------------
+[03:22:18.452] [Orchestrator]   STEP 1/5 - Demand Intelligence Agent
+[03:22:18.452] [Orchestrator] ------------------------------------------------------------
+"[03:22:28.741] [Orchestrator] Demand complete - MAPE=250.8%, RMSE=1782.0, SKUs forecasted=41"
+[03:22:28.751] [Orchestrator] ------------------------------------------------------------
+[03:22:28.751] [Orchestrator]   STEP 2/5 - Pack Size Optimization Agent
+[03:22:28.751] [Orchestrator] ------------------------------------------------------------
+"[03:22:31.766] [Orchestrator] Pack size complete - fast=5, medium=25, slow=11, avg_score=7.9"
+[03:22:31.766] [Orchestrator] ------------------------------------------------------------
+[03:22:31.766] [Orchestrator]   STEP 3/5 - Financial Impact Agent
+[03:22:31.766] [Orchestrator] ------------------------------------------------------------
+"[03:22:31.876] [Orchestrator] Financial complete - PBT uplift=18.0%, Revenue uplift=10.83%, Debtor improvement=26.83%, Unprofitable SKUs=0"
+[03:22:31.876] [Orchestrator] ------------------------------------------------------------
+[03:22:31.876] [Orchestrator]   STEP 4/5 - Production Planning Agent
+[03:22:31.876] [Orchestrator] ------------------------------------------------------------
+"[03:22:32.222] [Orchestrator] Production complete - plants=26, SKUs=277, avg_utilisation=43.7%, avg_lead_time=15.6d"
+[03:22:32.222] [Orchestrator] ------------------------------------------------------------
+[03:22:32.222] [Orchestrator]   STEP 5/5 - Dispatch Optimization Agent
+[03:22:32.222] [Orchestrator] ------------------------------------------------------------
+"[03:22:32.740] [Orchestrator] Dispatch complete - storage_locations=14, lead_time_reduction=22.5%"
+[03:22:32.740] [Orchestrator] ------------------------------------------------------------
+[03:22:32.740] [Orchestrator]   PIPELINE COMPLETE
+[03:22:32.740] [Orchestrator] ------------------------------------------------------------
+[03:22:32.740] [Orchestrator] All 5 agents completed in 17.5s

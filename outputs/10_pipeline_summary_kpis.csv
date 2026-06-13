@@ -1,0 +1,17 @@
+﻿Metric,Value
+demand_mape_pct,250.8
+demand_rmse,1782.01
+skus_forecasted,41.0
+fast_movers,5.0
+medium_movers,25.0
+slow_movers,11.0
+avg_inventory_reduction_pct,21.7
+pbt_uplift_pct,18.0
+revenue_uplift_pct,10.83
+inventory_reduction_pct,27.95
+debtor_cycle_improvement_pct,26.83
+plants_analysed,26.0
+avg_plant_utilisation_pct,43.7
+avg_lead_time_days,15.6
+avg_lead_time_reduction_pct,22.5
+storage_locations,14.0
