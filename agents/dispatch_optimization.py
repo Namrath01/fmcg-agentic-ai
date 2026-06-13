@@ -55,15 +55,25 @@ class DispatchOptimizationAgent:
         self._log("Constructing supply chain network graph ...")
         G = nx.Graph()
 
+        # Pre-compute per-key averages once — avoids O(n_edges × n_rows) scans
+        sl_delivery_avg = (
+            master_df.groupby(master_df["StorageLocationId"].astype(str))["DeliveryQty"]
+            .mean()
+            .to_dict()
+        )
+        sku_delivery_avg = (
+            master_df.groupby(master_df["SkuId"].astype(str))["DeliveryQty"]
+            .mean()
+            .to_dict()
+        )
+
         # Add storage-location nodes from master
         storage_locs = master_df["StorageLocationId"].dropna().unique()
         for sl in storage_locs:
-            avg_delivery = master_df.loc[
-                master_df["StorageLocationId"] == str(sl), "DeliveryQty"
-            ].mean()
+            avg_delivery = sl_delivery_avg.get(str(sl), 0.0)
             G.add_node(
                 str(sl),
-                avg_delivery=float(avg_delivery) if not np.isnan(avg_delivery) else 0.0,
+                avg_delivery=float(avg_delivery),
                 node_type="storage_location",
             )
 
@@ -75,9 +85,7 @@ class DispatchOptimizationAgent:
                 sl = str(row.get("Storage Location", ""))
                 if n1 and n2 and n1 != n2:
                     # Weight = 1 / avg delivery volume (lower qty = higher cost/time)
-                    avg_vol = master_df.loc[
-                        master_df["SkuId"].isin([n1, n2]), "DeliveryQty"
-                    ].mean()
+                    avg_vol = (sku_delivery_avg.get(n1, 0) + sku_delivery_avg.get(n2, 0)) / 2
                     weight = 1 / (avg_vol + 1) if avg_vol > 0 else 1.0
                     if not G.has_node(n1):
                         G.add_node(n1, node_type="sku")
