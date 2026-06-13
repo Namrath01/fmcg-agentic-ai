@@ -17,7 +17,7 @@
 
 This project demonstrates an **enterprise-grade agentic AI system** that optimises FMCG (Fast-Moving Consumer Goods) pack-size strategy using a multi-agent pipeline built on two real-world datasets:
 
-- **SupplyGraph** (Wasi et al., AAAI 2024) — real FMCG supply chain data: 41 SKUs, 26 plants, 14 storage locations, 221 days of operational telemetry
+- **SupplyGraph** (Wasi et al., AAAI 2024) — real FMCG supply chain data: 40 SKUs, 9 plants, 13 storage locations, 221 days of operational telemetry
 - **M5 Forecasting** (Makridakis et al.) — Walmart demand data for 30,490 SKUs with calendar events and SNAP signals
 
 The system is mapped to the **SAP BTP AI Core** architecture and demonstrates how Joule Agents, HANA Cloud Vector Engine, and SAP Analytics Cloud could deploy this in enterprise production.
@@ -31,7 +31,7 @@ The system is mapped to the **SAP BTP AI Core** architecture and demonstrates ho
 │                    ENTERPRISE ERP CONTEXT (SAP BTP)                  │
 │                                                                       │
 │   SupplyGraph CSVs          M5 Forecasting Data                      │
-│   (41 SKUs · 26 Plants)     (Calendar · Prices · SNAP)               │
+│   (40 SKUs · 9 Plants)      (Calendar · Prices · SNAP)               │
 │           │                         │                                 │
 │           └──────────┬──────────────┘                                 │
 │                      ▼                                                │
@@ -126,8 +126,8 @@ Proceedings of the AAAI Workshop on AI for Time Series Analysis (AI4TS).
 ### M5 Forecasting
 ```
 Makridakis, S., Spiliotis, E., & Assimakopoulos, V.
-M5 Competition: Uncertainty Edition.
-Kaggle, 2020. https://www.kaggle.com/c/m5-forecasting-uncertainty
+M5 Competition: Accuracy Edition.
+Kaggle, 2020. https://www.kaggle.com/c/m5-forecasting-accuracy
 ```
 
 ---
