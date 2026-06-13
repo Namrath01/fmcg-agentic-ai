@@ -109,6 +109,7 @@ class DemandIntelligenceAgent:
     # -- training ---------------------------------------------------------
 
     def train(self, master_df: pd.DataFrame) -> "DemandIntelligenceAgent":
+        os.makedirs(os.path.join(os.path.dirname(__file__), '..', 'outputs'), exist_ok=True)
         model_path = os.path.join(os.path.dirname(__file__), '..', 'outputs', 'demand_model.pkl')
         if os.path.exists(model_path):
             bundle = joblib.load(model_path)
